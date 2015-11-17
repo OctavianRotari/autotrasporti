@@ -4,7 +4,7 @@ html
     title Autotrasporti Rotari
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css')
-  body
+  div(id="container")
   div(id="header")
     div(id="title_buttons")
       div(id="title")
@@ -19,5 +19,12 @@ html
         input(type="submit" value="About" id="about")
       form(action="/contatti" method="get")
         input(type="submit" value="Contatti" id="contatti")
+  div(id="body")
+  body
 
     block content
+  footer
+    h3(id="footer_text" style='white-space:pre;').
+      Indirizzo: via dell'abbondanza Piangipane (RA)
+      Numero: +39 347 735 3264
+      Email: dorinrotari@gmail.com 
