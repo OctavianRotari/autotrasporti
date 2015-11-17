@@ -9,7 +9,7 @@ var encrypt = function encrypt(text){
   return crypted;
 };
 
-exports.decrypt = function(text){
+var decrypt = function(text){
   var decipher = crypto.createDecipher(algorithm,password);
   var dec = decipher.update(text,'hex','utf8');
   dec += decipher.final('utf8');
