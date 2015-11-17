@@ -1,0 +1,129 @@
+html {
+  background: url("/images/highway.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #474646;
+}
+
+#header {
+  margin-top: 30px;
+  height: 40px;
+  background-color: #474646;
+  border-top-width: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#title_buttons {
+  width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#title,#buttons {
+  float: left;
+}
+
+#home,#flotta,#about {
+  float: left;
+  margin-right: 6px;
+}
+
+#title {
+  width: 300px;
+  color: #00A99D;
+}
+
+#buttons {
+  width: 700px;
+  height: 40px;
+}
+
+#home,#flotta,#about,#contatti {
+  background: #767676;
+  background-image: linear-gradient(to bottom, #767676, #474646);
+  border-radius: 8px;
+  font-family: Arial;
+  color: #00A99D;
+  font-size: 15px;
+  text-decoration: none;
+  height: 40px;
+  width: 170px;
+}
+
+main {
+  margin-top: 150px;
+  border-top-width: 40px;
+  margin-bottom: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #474646;
+  color: whitesmoke;
+  width: 700px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#title h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+#title p {
+  margin-top: 0px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: whitesmoke;
+  font-family: fantasy;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #00A99D
+}
+
+#footer {
+  color: #00A99D;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2px;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+  border-top-width: 2px;
+  height: 60px;
+  width: 1000px;
+}
+
+#footer h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+  font-family: Helvetica;
+  text-shadow:0 0 1px transparent;
+  font-size: 16px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: #B0B0B0;
+}
