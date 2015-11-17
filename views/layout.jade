@@ -11,13 +11,13 @@ html
         h1 Autotrasporti Rotari
         p Muoviamo i vostri progetti
     div(id="buttons")
-      form(action="")
-        input(type="button" value="Home" id="home")
-      form(action="")
-        input(type="button" value="Flotta" id="flotta")
-      form(action="")
-        input(type="button" value="About" id="about")
-      form(action="")
-        input(type="button" value="Contatti" id="contatti")
+      form(action="/home" method="get")
+        input(type="submit" value="Home" id="home")
+      form(action="/flotta" method="get")
+        input(type="submit" value="Flotta" id="flotta")
+      form(action="/about" method="get")
+        input(type="submit" value="About" id="about")
+      form(action="/contatti" method="get")
+        input(type="submit" value="Contatti" id="contatti")
 
     block content

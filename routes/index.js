@@ -10,4 +10,19 @@ router.get('/', function(req, res) {
   res.render('index', {});
 });
 
+router.get('/home', function(req, res) {
+  res.render('index', {});
+});
+
+router.get('/about', function(req, res) {
+  res.render('about', {});
+});
+
+router.get('/flotta', function(req, res) {
+  res.render('flotta', {});
+});
+
+router.get('/contatti', function(req, res) {
+  res.render('contatti', {});
+});
 module.exports = router;
