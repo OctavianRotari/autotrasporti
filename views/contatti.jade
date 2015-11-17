@@ -5,11 +5,19 @@ block content
   main
     h2 Contatti
     
-    form(id="contact_form" action="/send_email" method="post")
+    form(action="/send_mail" method="post")
       label(id="nome") Il tuo nome
-      input(id="name_contatti" type="text" size="30" placeholder="Il tuo nome")
+      input(id="name_contatti" type="text" name="nome" size="30" placeholder="Il tuo nome")
       label La tua email
-      input(id="email_contatti" type="text" placeholder="La tua email" size="30")
+      input(id="email_contatti" type="text" name="email" placeholder="La tua email" size="30")
       label Il tuo messaggio
-      textarea(id="testo" type="text" placeholder="Testo" rows="7" cols="30")
+      textarea(id="testo" type="text" placeholder="Testo" name="testo" rows="7" cols="30")
       input(id="button_submit" type="submit" value="Manda Email")
+      
+    if(typeof msg !== 'undefined')
+      if(!!err)
+        div(id="msgbox err")
+        p error
+      else
+        div(id="success")
+        p successo
