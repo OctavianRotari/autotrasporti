@@ -2,6 +2,10 @@ doctype html
 html
   head
     title Autotrasporti Rotari
+    script(src="https://maps.googleapis.com/maps/api/js?v=3.exp")
+    script(src="//code.jquery.com/jquery-1.11.3.min.js")
+    script(src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+    script(src="/javascripts/maps.js")
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css')
   div(id="container")
@@ -21,7 +25,6 @@ html
         input(type="submit" value="Contatti" id="contatti")
   div(id="body")
   body
-
     block content
   footer
     h3(id="footer_text" style='white-space:pre;').

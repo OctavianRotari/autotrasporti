@@ -76,33 +76,36 @@ footer {
 }
 
 #home_body {
-  margin-top: 150px;
-  border-top-width: 40px;
-  margin-bottom: 150px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #474646;
-  color: whitesmoke;
-  width: 700px;
+
+}
+
+#home_mezzi {
+  padding: 10px 10px;
+  width: 1000px;
   margin-left:auto;
   margin-right:auto;
+  color: whitesmoke;
+  background-color: #474646;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-bottom: 30px;
+}
+
+#nascita_sviluppo {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  color: whitesmoke;
+  width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #474646;
+  margin-bottom: 180px;
 }
 
 main {
-  margin-top: 150px;
-  border-top-width: 40px;
-  margin-bottom: 150px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #474646;
-  color: whitesmoke;
-  width: 700px;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 #title h1 {
@@ -130,6 +133,7 @@ main {
 }
 
 h1, h2, h3 {
+  margin-top: 0px;
   font-family: 'Montserrat', sans-serif;
   color: #00A99D
 }
@@ -153,13 +157,14 @@ h1, h2, h3 {
   height:60px;
 }
 
-p {
+#home_p {
   font-family: Helvetica;
   text-shadow:0 0 1px transparent;
   font-size: 16px;
   word-spacing: 2px;
   letter-spacing: 1px;
   color: #B0B0B0;
+  margin-bottom: 0px;
 }
 
 #nome, #email, #testo {
@@ -168,4 +173,12 @@ p {
 
 #name_contatti, #email_contatti {
   margin-right: 500px;
+}
+
+#map {
+  background-color: rgb(229, 227, 223);
+  height: 200px;
+  margin-right: auto;
+  width: 1000px;
+  margin-left: auto;
 }

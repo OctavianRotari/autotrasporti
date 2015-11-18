@@ -48,9 +48,6 @@ router.post('/send_mail', function(req, res){
     text: req.body.testo
   };
 
-  console.log(mailOpts.from);
-
-  console.log(mailOpts);
 
   smtpTrans.sendMail (mailOpts, function(error, message){
     if (error) {
@@ -62,4 +59,5 @@ router.post('/send_mail', function(req, res){
     }
   });
 });
+
 module.exports = router;
