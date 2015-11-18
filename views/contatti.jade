@@ -2,17 +2,16 @@ extends layout
 
 block content
 
-  main
+  main(id="contatti_main")
     h2 Contatti
-    
     form(action="/send_mail" method="post")
-      label(id="nome") Il tuo nome
+      p Il tuo nome
       input(id="name_contatti" type="text" name="nome" size="30" placeholder="Il tuo nome")
-      label La tua email
+      p La tua email
       input(id="email_contatti" type="text" name="email" placeholder="La tua email" size="30")
-      label Il tuo messaggio
+      p(id="tuo_messaggio") Il tuo messaggio
       textarea(id="testo" type="text" placeholder="Testo" name="testo" rows="7" cols="30")
-      input(id="button_submit" type="submit" value="Manda Email")
+      input(id="button_email" type="submit" value="Manda Email")
       
     if(typeof msg !== 'undefined')
       if(!!err)
